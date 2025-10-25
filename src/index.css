@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* (необязательно) лёгкий базовый ресет для высоты */
+@layer base {
+  html, body, #root { height: 100%; }
+}
